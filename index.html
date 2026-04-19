@@ -59,6 +59,38 @@
                 padding: 20px;
             }
 
+            section:nth-of-type(5) h2{
+                position: relative;
+                padding-bottom: 10px;
+            }
+
+            section:nth-of-type(5) h2::after {
+                content: "";
+                width: 60px;
+                height: 3px;
+                background: #bfa046;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+            section:nth-of-type(6) {
+                text-align: center;
+            }
+
+            section:nth-of-type(6) div div {
+                border: 2px solid #e0ddd7;
+            }
+
+            section:nth-of-type(6) button {
+                margin-top: 10px;
+            }
+
+            section:nth-of-type(6) div div:nth-child(2) {
+                border: 2px solid #2e6f5c;
+                transform: scale(1.05);
+            }
+
             h1{
                 font-size: 42px;
                 font-weight: 600;
@@ -216,5 +248,30 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <h2>Membership Plans</h2>
+            <p>Experience continuous care with our personalized wellness memberships designed to support your long-term health and vitality.</p>
+            <div>
+                <div>
+                    <h3>Essential Care</h3>
+                    <p>Foundational wellness support with acccess to core services</p>
+                    <button>Join Now</button>
+                </div>
+
+                <div>
+                    <h3>Advanced Wellness</h3>
+                    <p>Expanded services including therapy, movement, and recovery treatments.</p>
+                    <button>Join Now</button>
+                </div>
+
+                <div>
+                    <h3>Elite Performance</h3>
+                    <p>Comprehensive, fully integrated care for optimal health and performance.</p>
+                    <button>Join Now</button>
+                </div>
+            </div>    
+        </section>
+
     </body>
 </html>
