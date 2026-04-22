@@ -154,6 +154,7 @@
                 cursor: pointer;
                 border-radius: 6px;
                 font-weight: 500;
+                transition: all 0.3s;
             }
 
             button + button {
@@ -162,6 +163,8 @@
             
                 button:hover{
                     background: #24594a;
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
                 }
             
 
@@ -195,6 +198,26 @@
                 text-decoration: none;
                 color: inherit;
             }
+
+            .cta-secondary {
+                background: #bfa046; /* gold */
+            }
+
+            .cta-secondary:hover{
+                background: #a8892f;
+            }
+
+            .cta-gold {
+                background: #bfa046;
+                color: white;
+                transition: all 0.3s ease;
+            }
+
+            .cta-gold:hover{
+                background: #a8892f;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+            }
         </style>
     </head>
     <body>
@@ -212,7 +235,7 @@
             <h1>Modern Medicine Meets Whole-Person Wellness.</h1>
             <p>Personalized, Integrative care designed to help you feel better, move better, and live with lasting energy.</p>
             <button>Book Consultation</button>
-            <button style="background:#bfa046">Explore Membership</button>
+            <button class="cta-gold">Explore Membership</button>
         </section>
 
         <section>
@@ -376,7 +399,7 @@
         <section style="text-align: center;">
             <h2>Start Your Personalized Wellness Journey</h2>
             <p>Book your consultation and experience a new standard of care.</p>
-             <button>Book Consultation</button>
+             <button class="cta-secondary">Book Consultation</button>
         </section>
 
         <footer>
