@@ -118,6 +118,10 @@ button:hover{
     background: #bfa046;
 }
 
+.cta-secondary:hover{
+    background: #a8892f;
+}
+
 /* FOOTER */
 footer{
     text-align: center;
