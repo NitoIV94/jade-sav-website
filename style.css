@@ -38,10 +38,29 @@ nav ul li {
     cursor: pointer;
 }
 
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #bfa046;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
 /* SECTIONS */
 .section{
-    padding: 120px 20px;
-    max-width: 1000px;
+    padding: 140px 20px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -58,6 +77,11 @@ nav ul li {
     position: absolute;
     left: 0;
     bottom: -8px;
+}
+
+.section[style*="text-align:center"] h2::after {
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .section + .section {
@@ -81,6 +105,10 @@ nav ul li {
     color: white;
 }
 
+.section-dark h2::after {
+    background: #d4b24f;
+}
+
 .section-dark h3 {
     color: #d4af37; /* richer gold */
 }
@@ -99,14 +127,19 @@ nav ul li {
 
 .card{
     background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
 }
 
+.card button {
+    align-self: center;
+    margin-top: 15px;
+}
+
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px) scale(1.01);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -143,15 +176,30 @@ p{
     margin-top: 0;
 }
 
+.trust-bar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 14px;
+    opacity: 0.9;
+    flex-wrap: wrap;
+}
+
+.trust-bar p {
+    margin: o;
+    color: #f1f1f1;
+}
+
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1f') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 120px 20px;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: clamp(28px, 5vw, 48px);
     max-width: 700px;
     margin: auto;
 }
@@ -169,20 +217,16 @@ p{
 
 
 /* BUTTONS */
-button{
-    margin-right: 10px;
-    padding: 14px 28px;
-    border: none;
-    border-radius: 30px;
+button {
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: 1px solid #2e6f5c;
     font-weight: 500;
-    background: #2e6f5c;
-    color: white;
+    background: transparent;
+    color: #2e6f5c;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-button + button {
-    margin-left: 10px;
+    display: inline-block;
 }
 
 button:hover{
@@ -191,8 +235,21 @@ button:hover{
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
 
+button:active {
+    transform: scale(0.97)
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
 .cta-gold{
     background: #bfa046;
+    color: white;
+    border: none;
 }
 
 .cta-gold:hover{
