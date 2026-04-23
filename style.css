@@ -7,10 +7,14 @@ body{
 
 /* NAV */
 nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    background: #ffffff;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.8);
     border-bottom: 1px solid #e0ddd7;
     align-items: center;
 }
@@ -36,7 +40,7 @@ nav ul li {
 
 /* SECTIONS */
 .section{
-    padding: 100px 20px;
+    padding: 120px 20px;
     max-width: 1000px;
     margin: auto;
 }
@@ -73,13 +77,16 @@ nav ul li {
     color: white;
 }
 
-.section-dark h2,
-.section-dark h3{
+.section-dark h2{
     color: white;
 }
 
+.section-dark h3 {
+    color: #d4af37; /* richer gold */
+}
+
 .section-dark p{
-    color: #dcdcdc;
+    color: #f1f1f1;
 }
 
 /* GRID */
@@ -99,12 +106,13 @@ nav ul li {
 }
 
 .card:hover {
-    transform: translate(-5px);
+    transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
 }
 
 .section-dark .card{
     background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(6px);
 }
 
@@ -125,7 +133,7 @@ h3{
     color: #bfa046;
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
     margin-bottom: 10px;
 }
 
@@ -136,6 +144,8 @@ p{
 }
 
 .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('') center/cover no-repeat;
+    color: white;
     text-align: center;
     padding: 120px 20px;
 }
@@ -161,9 +171,9 @@ p{
 /* BUTTONS */
 button{
     margin-right: 10px;
-    padding: 10px 20px;
+    padding: 14px 28px;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
     font-weight: 500;
     background: #2e6f5c;
     color: white;
@@ -191,6 +201,8 @@ button:hover{
 
 .cta-secondary{
     background: #bfa046;
+    color: #1f1f1f;
+    box-shadow: 0 4px 15px rgba(191,160,70,0.4);
 }
 
 .cta-secondary:hover{
