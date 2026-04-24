@@ -242,14 +242,21 @@ button:active {
     margin-top: 20px;
 }
 
+.cta-outline {
+    background: transparent;
+    border: 1px solid #2e6f5c;
+    color: #2e6f5c;
+}
+
 .cta-gold{
-    background: #bfa046;
-    color: white;
+    background: #d4af37;
+    color: #1f1f1f;
     border: none;
+    font-weight: 600;
 }
 
 .cta-gold:hover{
-    background: #a8892f;
+    background: #b8962e;
 }
 
 .cta-secondary{
