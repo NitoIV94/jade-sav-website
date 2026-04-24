@@ -213,11 +213,11 @@ button {
     border-radius: 8px;
     border: 1px solid #2e6f5c;
     font-weight: 500;
-    background: transparent;
+    background: #2e6f5c;
     color: #f1f1f1;
     cursor: pointer;
     transition: all 0.3s ease;
-    display: inline-block;
+    display: flex;
 }
 
 button:hover{
@@ -238,7 +238,7 @@ button:active {
 }
 
 .cta-outline {
-    background: transparent;
+    background: #2e6f5c;
     border: 1px solid #2e6f5c;
     color: #f1f1f1;
 }
@@ -252,16 +252,6 @@ button:active {
 
 .cta-gold:hover{
     background: #b8962e;
-}
-
-.cta-secondary{
-    background: #bfa046;
-    color: #1f1f1f;
-    box-shadow: 0 4px 15px rgba(191,160,70,0.4);
-}
-
-.cta-secondary:hover{
-    background: #a8892f;
 }
 
 /* FOOTER */
