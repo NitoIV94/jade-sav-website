@@ -79,11 +79,6 @@ nav ul li a:hover::after {
     bottom: -8px;
 }
 
-.section .section-dark[style="text-align:center"] h2::after {
-    left: 50%;
-    transform: translate(-50%);
-}
-
 .section-light{
     background: #ffffff;
 }
@@ -188,7 +183,7 @@ p{
 }
 
 .hero {
-    background: url('https://media.istockphoto.com/id/1648684355/photo/spa-rock-and-candle-to-relax-in-a-room-with-atmosphere-mood-or-ambience-in-a-health-club.jpg?s=612x612&w=0&k=20&c=BKkQYX81bWa9x7w3fW1vXu64SRf8mwRcwvUsBZz7y6U=') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://media.istockphoto.com/id/1648684355/photo/spa-rock-and-candle-to-relax-in-a-room-with-atmosphere-mood-or-ambience-in-a-health-club.jpg?s=612x612&w=0&k=20&c=BKkQYX81bWa9x7w3fW1vXu64SRf8mwRcwvUsBZz7y6U=') center/cover no-repeat;
     color: white;
     position: relative;
     padding: 140px 20px;
@@ -219,7 +214,7 @@ button {
     border: 1px solid #2e6f5c;
     font-weight: 500;
     background: transparent;
-    color: #2e6f5c;
+    color: #f1f1f1;
     cursor: pointer;
     transition: all 0.3s ease;
     display: inline-block;
@@ -245,7 +240,7 @@ button:active {
 .cta-outline {
     background: transparent;
     border: 1px solid #2e6f5c;
-    color: #2e6f5c;
+    color: #f1f1f1;
 }
 
 .cta-gold{
