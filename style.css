@@ -220,7 +220,7 @@ p{
         rgba(245, 242, 236, 0.7) 55%,
         rgba(245, 242, 236, 0.2) 75%
     ),
-    url('https://chatgpt.com/backend-api/estuary/content?id=file_000000004a8471fbb73858bc8b79874a&ts=493665&p=fs&cid=1&sig=20447d4222859e1cbc3b26cc7606f73b53fdf7fb83427c859ac1bc142bd651c8&v=0') center/cover no-repeat;
+    url('https://chatgpt.com/backend-api/estuary/content?id=file_000000004a8471fbb73858bc8b79874a&ts=493665&p=fs&cid=1&sig=20447d4222859e1cbc3b26cc7606f73b53fdf7fb83427c859ac1bc142bd651c8&v=0.png') center/cover no-repeat;
 }
 
 .hero h1 {
