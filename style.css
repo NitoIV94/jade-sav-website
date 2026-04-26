@@ -212,7 +212,11 @@ p{
     min-height: 90vh;
     display: flex;
     align-items: center;
-    background: url('hero.jpg') center/cover no-repeat;
+    background: linear-gradient(
+        to right,
+        rgba(245, 242, 236, 0.75) 30%,
+        rgba(245, 242, 236, 0.5) 55%,
+        rgba(245, 242, 236, 0.1) 75%), url('hero.jpg') center/cover no-repeat;
 }
 
 .hero h1 {
