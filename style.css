@@ -144,6 +144,11 @@ nav ul li a:hover::after {
     backdrop-filter: blur(6px);
 }
 
+.featured {
+    border: 2px solid #d4af37;
+    transform: scale(1.05);
+}
+
 /* TYPOGRAPHY */
 h1{
     font-size: 40px;
