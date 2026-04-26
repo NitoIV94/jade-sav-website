@@ -69,7 +69,7 @@ nav ul li a:hover::after {
 }
 
 .section + .section {
-    margin-top: 40 px;
+    margin-top: 40px;
 }
 
 .section h2 {
@@ -130,6 +130,7 @@ nav ul li a:hover::after {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .card button {
@@ -257,12 +258,6 @@ button + button {
     justify-content: center;
     gap: 15px;
     margin-top: 20px;
-}
-
-.cta-outline {
-    background: #2e6f5c;
-    border: 1px solid #2e6f5c;
-    color: #f1f1f1;
 }
 
 .cta-gold{
