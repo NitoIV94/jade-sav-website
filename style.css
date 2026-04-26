@@ -5,6 +5,10 @@ body{
     color: #2f2f2f;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* NAV */
 nav{
     position: sticky;
@@ -64,6 +68,10 @@ nav ul li a:hover::after {
     margin: auto;
 }
 
+.section + .section {
+    margin-top: 40 px;
+}
+
 .section h2 {
     position: relative;
     display: inline-block;
@@ -105,7 +113,7 @@ nav ul li a:hover::after {
 }
 
 .section-dark p{
-    color: #f1f1f1;
+    color: #dcdcdc;
 }
 
 /* GRID */
@@ -118,9 +126,9 @@ nav ul li a:hover::after {
 
 .card{
     background: white;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     transition: all 0.3s ease;
 }
 
@@ -139,7 +147,7 @@ nav ul li a:hover::after {
 }
 
 .section-dark .card{
-    background: rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.12);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(6px);
 }
@@ -196,6 +204,7 @@ p{
     color: white;
     position: relative;
     padding: 140px 20px;
+    text-align: center;
 }
 
 .hero h1 {
@@ -219,7 +228,7 @@ p{
 /* BUTTONS */
 button {
     padding: 12px 22px;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 1px solid #2e6f5c;
     font-weight: 500;
     background: #2e6f5c;
@@ -237,6 +246,10 @@ button:hover{
 
 button:active {
     transform: scale(0.97)
+}
+
+button + button {
+    margin-left: 10px;
 }
 
 .hero-buttons {
