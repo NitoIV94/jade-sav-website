@@ -16,7 +16,7 @@
             </ul>
         </nav>
 
-<section class="hero">
+<section class="hero fade-in">
   <div class="hero-container">
 
     <div class="hero-content">
@@ -42,41 +42,41 @@
   </div>
 </section>
 
-        <section class="section section-alt">
+        <section class="section section-alt fade-in">
             <h2>About Us</h2>
             <p>JADE-SAV Integrative Health Center brings together medical, behavioral, and holistic providers under one roof to deliver truly coordinated care.
                 Our model focuses on prevention, performance, and long-term vitality-helping you move beyond symptom management into full body optimization.
             </p>
         </section>
 
-        <section class="section section-light">
+        <section class="section section-light fade-in">
             <h2>How it Works</h2>
             <p>A simple, guided approach to achieving your long-term wellness goals.</p>
 
             <div class="grid">
-                <div class="card">
+                <div class="card fade-in">
                     <h3>1. Consultation</h3>
                     <p>We take a deep dive into your health, lifestyle, and goals.</p>
                 </div>
 
-                <div class="card">
+                <div class="card fade-in">
                     <h3>2. Personalized Plan</h3>
                     <p>A customized care plan is created based on your needs.</p>
                 </div>
 
-                <div class="card">
+                <div class="card fade-in">
                     <h3>3. Integrated Care</h3>
                     <p>Our team works together to provide coordinated treatment.</p>
                 </div>
 
-                <div class="card">
+                <div class="card fade-in">
                     <h3>4. Ongoing Support</h3>
                     <p>We track your progress and evolve your plan to ensure real results.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section section-alt">
+        <section class="section section-alt fade-in">
             <h2>Our Services</h2>
 
             <div class="grid">
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <section class="section section-dark">
+        <section class="section section-dark fade-in">
             <h2>Our Integrated Care Model</h2>
             <p>Most healthcare treats symptoms. We treat the whole system. Our providers work together to create a seamless, whole-person approach to your health and well-being.</p>
             
@@ -101,7 +101,7 @@
             </div>
         </section>
 
-        <section class="section section-light">
+        <section class="section section-light fade-in ">
             <h2>Why Choose JADE-SAV</h2>
             <div class="grid">
                 <div class="card">
@@ -119,7 +119,7 @@
             </div>
         </section>
 
-        <section class="section section-alt">
+        <section class="section section-alt fade-in">
             <h2>Membership Plans</h2>
             <p>Experience continuous care with our personalized wellness memberships designed to support your long-term health and vitality.</p>
             <div class="grid">
@@ -143,7 +143,7 @@
             </div>    
         </section>
 
-        <section class=" section section-light">
+        <section class=" section section-light fade-in">
             <h2>What Our Clients Say</h2>
             <p>Real experiences from individuals who have transformed their health with JADE-SAV.</p>
             <div class="grid">
@@ -164,7 +164,7 @@
             </div>
         </section>
 
-        <section class="section section-dark " style="text-align:center;">
+        <section class="section section-dark fade-in" style="text-align:center;">
             <h2>Start Your Personalized Wellness Journey</h2>
             <p>Book your consultation and experience a new standard of care.</p>
              <button class="cta-gold">Book Consultation</button>
@@ -174,5 +174,19 @@
             <p>© 2026 JADE-SAV Integrative Health Center</p>
             <p>Oak Brook, IL</p>
         </footer>
+        
+        <script>
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+});
+
+document.querySelectorAll('.fade-in').forEach(el => {
+    observer.observe(el);
+});
+</script>
     </body>
 </html>
