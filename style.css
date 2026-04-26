@@ -212,14 +212,12 @@ p{
     min-height: 90vh;
     display: flex;
     align-items: center;
-
-    background: 
-    linear-gradient(
+    background: linear-gradient(
         to right,
         rgba(245, 242, 236, 0.95) 30%,
         rgba(245, 242, 236, 0.7) 55%,
         rgba(245, 242, 236, 0.2) 75%),
-        url('../../../Downloads/ChatGPT Image Apr 26, 2026, 04_52_12 AM.png') center/cover no-repeat;
+        url('hero.jpg') center/cover no-repeat;
 }
 
 .hero h1 {
