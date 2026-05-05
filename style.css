@@ -216,7 +216,7 @@ p{
         to right,
         rgba(245, 242, 236, 0.65) 30%,
         rgba(245, 242, 236, 0.4) 55%,
-        rgba(245, 242, 236, 0.05) 75%), url('hero.jpg') center/cover no-repeat;
+        rgba(245, 242, 236, 0.05) 75%), url('hero-2.jpg') center/cover no-repeat;
         filter: contrast(1.05) brightness(0.98);
     }
 
