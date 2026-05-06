@@ -209,9 +209,9 @@ p{
     align-items: center;
     background: linear-gradient(
         to right,
-        rgba(20, 20, 20, 0.55) 25%,
-        rgba(20, 20, 20, 0.35) 50%,
-        rgba(20, 20, 20, 0.1) 75%), url('hero-2.jpg') center/cover no-repeat;
+        rgba(20, 20, 20, 0.35) 25%,
+        rgba(20, 20, 20, 0.2) 50%,
+        rgba(20, 20, 20, 0.05) 75%), url('hero-2.jpg') center/cover no-repeat;
 
     }
 
