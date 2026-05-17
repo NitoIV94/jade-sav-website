@@ -251,14 +251,45 @@ p{
     max-width: 460px; 
 }
 
-.experiences {
-    font-style: italic;
+.testimonial {
     text-align: left;
+    padding: 30px;
+    border-left: 4px solid #d4af37;
 }
 
-.clients {
-    color: #555;
-    font-weight: lighter;
+.quote {
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #2f2f2f;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.quote::before {
+    content: "“";
+    font-size: 40px;
+    color: #d4af37;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name {
+    font-weight: 600;
+    color: #2e6f5c;
+}
+
+.location {
+    font-size: 13px;
+    color: #888;
 }
 
 .microcopy {
