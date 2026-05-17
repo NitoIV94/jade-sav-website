@@ -129,7 +129,7 @@ nav ul li a:hover::after {
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    gap: 30px;
     margin-top: 20px;
 }
 
@@ -298,6 +298,12 @@ p{
     font-size: 13px;
     color: #777;
     margin-top: 10px;
+}
+
+.stars {
+    color: #d4af37;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 /* BUTTONS */
