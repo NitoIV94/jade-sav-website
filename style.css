@@ -267,7 +267,7 @@ p{
     opacity: 0;
 }
 
-@keyframes fadIn {
+@keyframes fadeIn {
     to {
         opacity: 0.95;
     }
