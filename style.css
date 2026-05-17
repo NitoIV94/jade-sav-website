@@ -251,6 +251,28 @@ p{
     max-width: 460px; 
 }
 
+.hero-brand {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 90px;
+    height: auto;
+    opacity: 0.95;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 0 2px #d4af37;
+    animation: fadeIn 1.2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadIn {
+    to {
+        opacity: 0.95;
+    }
+}
+
 .testimonial-intro {
     margin-bottom: 20px;
 }
