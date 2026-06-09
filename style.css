@@ -18,7 +18,7 @@ nav{
     justify-content: space-between;
     padding: 15px 40px;
     backdrop-filter: blur(10px);
-    background: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.95);
     border-bottom: 1px solid #e0ddd7;
 }
 
@@ -38,10 +38,10 @@ nav{
 }
 
 nav-logo {
-    height: 42px;
+    height: 38px;
     padding: 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 2px #d4af37;
+    width: auto;
 }
 
 ul{
