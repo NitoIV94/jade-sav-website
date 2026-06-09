@@ -23,10 +23,25 @@ nav{
     border-bottom: 1px solid #e0ddd7;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-left h2 {
+    margin: 0;
+    color: #2e6f5c;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 .nav-logo {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
+    display: block;
     padding: 5px;
     border-radius: 50%;
     background: rgba(255,255,255,0.7);
