@@ -16,43 +16,20 @@ nav{
     z-index: 1000;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px 40px;
     backdrop-filter: blur(10px);
     background: rgba(255,255,255,0.95);
     border-bottom: 1px solid #e0ddd7;
 }
 
-.nav-left {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
-
-.nav-left h2 {
-    margin: 0;
-    color: #2e6f5c;
-    font-size: 1.8rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-
-}
-
-nav-logo {
-position: absolute;
-    top: 30px;
-    left: 40px;
-
-    width: 90px;
-    height: auto;
-
-    opacity: 0.95;
-
-    padding: 8px;
+.nav-logo {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    padding: 5px;
     border-radius: 50%;
-
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(6px);
-
+    background: rgba(255,255,255,0.7);
     box-shadow: 0 0 0 2px #d4af37;
 }
 
