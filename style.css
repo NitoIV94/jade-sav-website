@@ -38,9 +38,22 @@ nav{
 }
 
 nav-logo {
-    padding: 4px;
+position: absolute;
+    top: 30px;
+    left: 40px;
+
+    width: 90px;
+    height: auto;
+
+    opacity: 0.95;
+
+    padding: 8px;
     border-radius: 50%;
-    width: auto;
+
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+
+    box-shadow: 0 0 0 2px #d4af37;
 }
 
 ul{
