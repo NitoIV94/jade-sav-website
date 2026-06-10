@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JADE-SAV Integrative health</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+          <div class="nav-left">
+            <h2>JADE-SAV</h2>
+            <img src="../Logo.jpg" alt="JADE-SAV Logo" class="nav-logo">
+          </div>     
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#membership">Membership</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <section class="service-hero medical-care-hero">
+    <div class="service-content">
+        <h1>Psychological Wellness & Behavioral Health</h1>
+
+        <p>
+            Evidence-based therapy designed to help you manage stress,
+            overcome challenges, and build lasting emotional resilience.
+        </p>
+
+        <button class="btn-primary">
+            Book Your Consultation
+        </button>
+    </div>
+    </section>
+    
+    <section class="section">
+    <h2>What Is Behavioral Health Therapy?</h2>
+
+    <p>
+        Our licensed psychologist provides personalized therapy
+        focused on helping individuals navigate anxiety,
+        stress, trauma, life transitions, and emotional well-being.
+    </p>
+
+    <p>
+        Through evidence-based approaches such as Cognitive
+        Behavioral Therapy (CBT), we help you develop practical
+        tools for long-term mental wellness.
+    </p>
+</section>
+
+<section class="section section-light">
+    <h2>Benefits</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Reduce Anxiety</h3>
+            <p>Develop healthy coping strategies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Improve Resilience</h3>
+            <p>Build confidence in navigating life's challenges.</p>
+        </div>
+
+        <div class="card">
+            <h3>Enhance Relationships</h3>
+            <p>Strengthen communication and emotional awareness.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>Who Can Benefit?</h2>
+
+    <ul class="service-list">
+        <li>✓ Individuals experiencing stress or burnout</li>
+        <li>✓ Those struggling with anxiety or depression</li>
+        <li>✓ Professionals seeking work-life balance</li>
+        <li>✓ Parents and caregivers managing overwhelm</li>
+        <li>✓ Individuals navigating life transitions</li>
+    </ul>
+</section>
+
+<section class="section section-alt">
+    <h2>What to Expect</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Initial Assessment</h3>
+            <p>We discuss your goals and concerns.</p>
+        </div>
+
+        <div class="card">
+            <h3>Personalized Plan</h3>
+            <p>A treatment approach tailored to your needs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Ongoing Support</h3>
+            <p>Regular sessions focused on measurable progress.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section-dark">
+    <h2>Your Care Team Works Together</h2>
+
+    <p>
+        Unlike traditional healthcare models, our providers
+        collaborate to ensure every aspect of your health is
+        addressed. Your psychologist may coordinate with
+        physicians, chiropractors, physical therapists,
+        and nutrition specialists to support your whole-person wellness.
+    </p>
+
+</section>
+
+<section class="section" style="text-align:center;">
+    <h2>Ready to Prioritize Your Mental Wellness?</h2>
+
+    <p>
+        Schedule a consultation with our behavioral health team.
+    </p>
+
+    <button class="cta-gold">
+        Book Now
+    </button>
+
+</section>
+
+        <footer>
+            <p>© 2026 JADE-SAV Integrative Health Center</p>
+            <p>Oak Brook, IL</p>
+        </footer>
+    </body>
+</html>
